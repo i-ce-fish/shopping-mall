@@ -1,0 +1,24 @@
+/*
+重置uniapp默认样式
+uniapp内置组件带有各种默认样式，也就是各种坑
+*/
+
+
+uni-input {
+    font-size: 30rpx;
+    height:unset;
+    min-height:unset;
+    /*默认值*/
+    /*font-size: 32rpx;*/
+    /*height: 1.4rem;*/
+    /*min-height: 1.4rem;*/
+}
+
+uni-image{
+    width: 100%;
+    display: block;
+    /*	默认值*/
+    /*	width: 320px;*/
+    /*	height: 240px;*/
+    /*	display: inline-block;*/
+}

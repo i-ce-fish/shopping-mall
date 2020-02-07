@@ -1,0 +1,22 @@
+{
+  "name": "shopping-mall",
+  "version": "1.0.0",
+  "description": "购物商城",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-ce-fish/yunxiang-uni-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-ce-fish/yunxiang-uni-app/issues"
+  },
+  "homepage": "https://github.com/i-ce-fish/yunxiang-uni-app#readme",
+  "devDependencies": {
+    "@types/uni-app": "^1.4.1"
+  }
+}
