@@ -1,16 +1,16 @@
 <template>
 	<view class="container">
 		<!--tabbar-->
-		<view class="tui-tabbar">
-			<block v-for="(item,index) in tabbar" :key="index">
-				<view class="tui-tabbar-item" :class="[current==index?'tui-item-active':'']" :data-index="index" @tap="tabbarSwitch">
-					<view :class="[index==0?'tui-ptop-4':'']">
-						<tui-icon :name="current==index?item.icon+'-fill':item.icon" :color="current==index?'#E41F19':'#666'" :size="item.size"></tui-icon>
-					</view>
-					<view class="tui-scale">{{item.text}}</view>
-				</view>
-			</block>
-		</view>
+<!--		<view class="tui-tabbar">-->
+<!--			<block v-for="(item,index) in tabbar" :key="index">-->
+<!--				<view class="tui-tabbar-item" :class="[current==index?'tui-item-active':'']" :data-index="index" @tap="tabbarSwitch">-->
+<!--					<view :class="[index==0?'tui-ptop-4':'']">-->
+<!--						<tui-icon :name="current==index?item.icon+'-fill':item.icon" :color="current==index?'#E41F19':'#666'" :size="item.size"></tui-icon>-->
+<!--					</view>-->
+<!--					<view class="tui-scale">{{item.text}}</view>-->
+<!--				</view>-->
+<!--			</block>-->
+<!--		</view>-->
 		<!--tabbar-->
 		<!--header-->
 		<view class="tui-header">

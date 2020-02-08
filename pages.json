@@ -214,24 +214,30 @@
   },
   "tabBar": {
     "color": "#666666",
-    "selectedColor": "#5677FC",
+    "selectedColor": "#e41f19",
     "backgroundColor": "#FFFFFF",
     "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "code",
+        {
+        "pagePath": "pages/extend-view/mall/mall",
+        "text": "首页",
         "iconPath": "static/images/tabbar/code_gray.png",
         "selectedIconPath": "static/images/tabbar/code_active.png"
       },
       {
-        "pagePath": "pages/extend/extend",
-        "text": "extend",
+        "pagePath": "pages/navbar-2/navbar-2",
+        "text": "分类",
         "iconPath": "static/images/tabbar/extend_gray.png",
         "selectedIconPath": "static/images/tabbar/extend_active.png"
       },
       {
-        "pagePath": "pages/my/my",
-        "text": "thor",
+        "pagePath": "pages/extend-view/mall-extend/shopcart/shopcart",
+        "text": "购物车",
+        "iconPath": "static/images/tabbar/thor_gray.png",
+        "selectedIconPath": "static/images/tabbar/thor_active.png"
+      },
+      {
+        "pagePath": "pages/extend-view/mall-extend/my/my",
+        "text": "我的",
         "iconPath": "static/images/tabbar/thor_gray.png",
         "selectedIconPath": "static/images/tabbar/thor_active.png"
       }

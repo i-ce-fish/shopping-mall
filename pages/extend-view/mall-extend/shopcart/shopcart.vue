@@ -578,7 +578,7 @@
 		background: #fff;
 		position: fixed;
 		left: 0;
-		bottom: 0;
+		bottom: 100rpx;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;

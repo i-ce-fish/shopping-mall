@@ -1208,11 +1208,12 @@
 
 /*checkbox 整体大小  */
 
-.tui-checkbox {
-	width: 36rpx;
-	height: 36rpx;
-	border-radius: 50%;
-}
+/*binyu remove */
+/*.tui-checkbox {*/
+/*	width: 36rpx;*/
+/*	height: 36rpx;*/
+/*	border-radius: 50%;*/
+/*}*/
 
 /* #ifdef APP-PLUS || MP */
 /*checkbox 选项框大小  */
